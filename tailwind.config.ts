@@ -8,10 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: { inter: ["Inter", "sans-serif"] }
     },
   },
   plugins: [],

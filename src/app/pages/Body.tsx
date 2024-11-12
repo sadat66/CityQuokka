@@ -6,10 +6,9 @@ import Image from "next/image";
 export default function Body() {
   return (
     <div className="flex self-center w-full max-w-[1122px] max-md:max-w-full bg-white pt-16">
-      {/* Left Section with fixed 682px width */}
       <div className="flex flex-col relative" style={{ width: "682px" }}>
         <Image
-          src="/Melbourne.png" // Replace with your image path
+          src="/Melbourne.png"
           alt="Sample Image"
           width={685}
           height={543}
@@ -30,7 +29,7 @@ export default function Body() {
             <button className="self-end text-white">
               {" "}
               <Image
-                src="/mingcute_arrows-down-line.svg" // Replace with your image path
+                src="/mingcute_arrows-down-line.svg"
                 alt="Sample Image"
                 width={38}
                 height={30}
