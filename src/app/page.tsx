@@ -8,8 +8,8 @@ import SignUp from './pages/SignUp'
 
 export default function page() {
   return (
-    <div className='flex flex-col w-full bg-white'>
-      <div className='flex flex-col self-center w-full max-w-[1122px] max-md:max-w-full bg-white'>
+    <div className='flex flex-col w-max-[1440px] bg-white'>
+      <div className='flex flex-col self-center w-full max-w-[1120px] max-md:max-w-full bg-white'>
       <Header/>
       <Body/>
       <WhoWeAre/>
