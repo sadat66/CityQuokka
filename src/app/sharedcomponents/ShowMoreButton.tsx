@@ -5,7 +5,7 @@ const ShowMoreButton = ({ bgColor = 'bg-violet-400', hoverColor = 'hover:bg-viol
     <div className="w-full relative flex justify-center items-center my-6">
       {/* Full width horizontal line */}
       <div className="absolute inset-0 flex items-center w-full">
-        <div className="w-full border-t border-gray-200" />
+        <div className="w-full border-[3px] border-gray-200" />
       </div>
       
       {/* Button */}

@@ -4,6 +4,8 @@ import CityHeader from "./CityHeader";
 import Carousel from "../sharedcomponents/Carousel";
 import ShowMoreButton from '../sharedcomponents/ShowMoreButton';
 import CityBody from "./CityBody";
+import CityMusic from "./CityMusic";
+import CustomFooter from "../sharedcomponents/CustomFooter";
 
 export default function Page() {
   return (
@@ -14,9 +16,12 @@ export default function Page() {
         <CityHeader />
         <CityBody/>
         <Carousel/>
+        
     <ShowMoreButton/>
+    <CityMusic/>
     <Carousel/>
     <ShowMoreButton bgColor="bg-[#00CA44]" hoverColor="hover:bg-[#00CA44]" />
+    <CustomFooter/>
     
       </div>
     </div>

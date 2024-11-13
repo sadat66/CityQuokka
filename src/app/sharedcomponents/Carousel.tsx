@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const ImageGallery = () => {
+const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
@@ -88,4 +88,4 @@ const ImageGallery = () => {
   );
 };
 
-export default ImageGallery;
+export default Carousel;
