@@ -9,7 +9,7 @@ const ArticleContent: React.FC = () => {
     <div className="flex flex-col items-start pl-11 text-3xl text-black max-md:pl-5 max-md:max-w-full">
       
       <Image
-          src="/Food2.png"
+          src="/food2.png"
           alt="mp"
           width={736}
           height={375}
