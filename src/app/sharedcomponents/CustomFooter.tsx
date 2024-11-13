@@ -12,14 +12,16 @@ export default function CustomFooter() {
         <div className="self-center text-4xl tracking-tighter leading-snug text-center text-black font-[596] pt-10 font-inter">
           Join the Mailing List
         </div>
-        
+
         {/* Input and Button */}
         <div className="flex flex-wrap mt-11 w-full leading-snug max-md:mt-10 max-md:max-w-full">
           {/* Email Input */}
-          <div className="flex-auto gap-6 self-stretch py-2 pr-3.5 pl-3.5 text-3xl tracking-tighter bg-white rounded-md border border-black border-solid min-h-[55px] text-zinc-400 max-md:w-full max-md:mb-4">
-            Email Address
-          </div>
-          
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="flex-auto gap-6 self-stretch py-2 pr-3.5 pl-3.5 text-3xl tracking-tighter bg-white rounded-md border border-black border-solid min-h-[55px] text-zinc-400 max-md:w-full max-md:mb-4"
+          />
+
           {/* Join Button */}
           <button className="gap-6 self-stretch px-9 py-3 text-2xl font-bold tracking-tight text-white whitespace-nowrap bg-black rounded-md min-h-[57px] max-md:px-5 max-md:w-full">
             Join
@@ -47,7 +49,7 @@ export default function CustomFooter() {
             />
           </button>
         </div>
-        
+
         {/* Acknowledgement Text */}
         <div className={inter.className}>
           <p className="text-black mt-10 text-center text-sm max-md:text-xs">
